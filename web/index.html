@@ -1,0 +1,363 @@
+<style>
+
+body{
+
+    background-size: cover;
+     background-position: center center; 
+    background-image: url(main.jpg);
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: 100%;
+}
+
+.ban{
+ /* width: 100px;
+ height: 100px; */
+  /* border: 1px solid #000;  */
+ /* background-image: url(ban.png);
+ background-size: cover;
+ background-position: center center; */
+ position: absolute;
+ top:10vh;
+left:35%;
+
+
+}
+.fan{
+display: none;
+
+
+}
+.logo2{
+    position:absolute;   
+    left:0%;
+    top:0%; 
+    width: 80px;
+    display: block;
+    cursor: pointer;
+}
+
+.logo{
+    position:absolute;   
+    left:10%;
+    top:0%;
+   width: 100px;
+   display: block;
+   cursor: pointer;
+    
+}
+.wind{
+    position:absolute;   
+    left:-2%;
+    top:-13%
+
+}
+.ban{
+    top:-4%;
+    left: 17%;
+    width:66%
+}
+.bt{
+    position: absolute;
+    top:52%;
+      left:42%;
+     
+}
+.pig{
+    position: absolute;
+    top:57%;
+    left:10%;
+    width:30%;
+    animation:move 15s linear  infinite;
+}
+
+.horse{
+    position: absolute;
+    top: 74%;
+    left:10%;
+    width:15%;
+    transform-origin: 50% 50%;
+    animation:move1 2s infinite;
+                                      
+}
+
+.rabbit{
+    position: absolute;
+    top: 65%;
+    left:33%;
+    width:11%;
+    animation:move1 2s infinite;
+}
+.cow{
+    position: absolute;
+    top: 70%;
+    left:51%;
+    width:22%;
+    animation:move1 2s infinite;
+}
+.sheep{
+    position: absolute;
+    top: 69%;
+    left:77%;
+    width:13%;
+    animation:move1 2s  infinite ;
+}
+
+.scow{
+    display: none;
+}
+
+.srabbit{
+    display: none;
+}
+.shorse{
+    display: none;
+}
+.ssheep{
+    display: none;
+}
+
+.nav{
+    display: none;
+}
+@keyframes move
+{
+0% {left:-20%;
+    top:53%}
+
+25% {left:30%;
+    top:48%}
+ 
+45% {left:50%;
+    top:44%}
+
+
+50% {left:60%;
+    top:45%}
+
+75% {left:80%;
+    top:47%}
+100%{
+    left:120%;
+    top:53%}
+}
+
+
+@keyframes move1{   
+    0%{
+        transform:rotate(10deg) ;
+    }
+    
+    50%{
+        transform:rotate(0deg) ;
+    }
+
+
+    100%{
+        transform: rotate(10deg);
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    body{
+ /* background-size: cover; */
+ background-position: top;
+ height: 230vh;
+ width: 100vw;
+ /* width:100%; */
+/* background-position: center center;  */
+background-image: url(mo_main.jpg)!important ;
+position: relative;
+overflow-x: hidden; 
+}
+
+.pig{
+      display: none; 
+}
+
+.wind{
+    display: none;
+}
+
+.horse{
+    display: none;
+                                      
+}
+
+.rabbit{
+    display: none; 
+}
+.cow{
+    display: none;
+}
+.sheep{
+    display: none;
+}
+
+.ban{
+    display: none;}
+.bt{
+    display:none;
+}
+.logo{
+    display:none;
+}
+.fan{
+    display: block;
+    height: 100px;
+    width: 100px;
+    animation:move5 2s linear infinite ;
+    position: absolute;
+    top:27%;
+    left:-5%
+}
+.fan img{
+    width: 100%;
+}
+.scow{
+    display: block;
+    position: absolute;
+    top: 38%;
+    left:5%;
+    width:60%;
+    animation:move6 2s linear infinite ;
+}
+.srabbit{
+    display: block;
+    position: absolute;
+    top: 47%;
+    left:35%;
+    width:45%;
+    animation:move6 2s linear infinite ;
+}
+.shorse{
+    display: block;
+    position: absolute;
+    top: 67%;
+    left:5%;
+    width:45%;
+    animation:move6 2s linear infinite ;
+}
+.ssheep{
+    display: block;
+    position: absolute;
+    top: 82%;
+    left:48%;
+    width:40%;
+    animation:move6 2s linear infinite ;
+
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(93, 62, 20);
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    display: block;
+    overflow: hidden;
+}
+.line{
+    height: 10px;
+    width: 60px;
+    float: right;
+    margin: 10px;
+}
+.fb{
+    height: 10px;
+    width: 60px;
+    float: right;
+    margin: 10px;
+}
+.heart{
+    height: 10px;
+    width: 30%;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+@keyframes move6{   
+    0%{
+        transform:rotate(10deg);
+    }
+    
+     50%{
+        transform:rotate(0deg);
+    } 
+
+    100%{
+        transform: rotate(10deg);
+    }
+
+}
+@keyframes move5{   
+    0%{
+        transform:rotate(360deg) ;
+    }
+    
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+}
+</style>
+<body>
+<div class="logo2">
+   <a href="https://vidol.tv/"><img src="logo2.png" width="100%"></a>
+</div>
+<div class="logo">  
+   <a href=" https://www.facebook.com/pushinranch/  "><img src="logo.png"width="100%" ></a>
+</div>
+<div class="ban">
+ <img src="ban.png "width="100%" >
+</div>
+<div class="fan">
+    <img src="mobile/fan.png" >
+</div>
+<div class="wind">
+    <img src="wing.gif"width="70%" >
+</div>
+<div class="bt">
+    <img src="bt_R.png"width="50%" >
+</div>
+<div class="pig">
+   <a href=" https://www.pushin-ranch.com/view.aspx ">  <img src="pig.gif"width="50%" ></a>
+</div>
+<div class="horse">
+   <a href=" https://www.pushin-ranch.com/view.aspx  ">    <img src="horse.png" width="100%"> </a> 
+</div>
+<div class="shorse">
+    <a href=" https://www.pushin-ranch.com/view.aspx  ">    <img src="mobile/shorse.png" width="100%"> </a> 
+ </div>
+<div class="rabbit">
+  <a href=" https://www.pushin-ranch.com/view.aspx ">    <img src="rabbit.png" width="100%"   ></a>
+</div>
+
+<div class="srabbit">
+    <a href=" https://www.pushin-ranch.com/view.aspx ">    <img src="mobile/srabbit.png" width="100%"   ></a>
+  </div>
+<div class="cow">
+        <a href=" https://www.pushin-ranch.com/view.aspx ">    <img src="cow.png"width="100%"></a>
+</div>
+<div class="scow">
+    <a href=" https://www.pushin-ranch.com/view.aspx ">    <img src="mobile/scow.png"width="100%"></a>
+</div>
+
+<div class="sheep"  width="100%" >
+        <a href=" https://www.pushin-ranch.com/view.aspx ">   <img src="sheep.png"width="100%" ></a>
+</div>
+<div class="ssheep"  width="100%" >
+    <a href=" https://www.pushin-ranch.com/view.aspx ">   <img src="mobile/ssheep.png"width="100%" ></a>
+</div>
+<div class="nav">
+      <div class="heart"> <a href=" https://www.facebook.com/pushinranch/  "> <img src="logo.png"width="100%" ></a> </div> 
+    <div class="line"> <img src="mobile/line.png"width="100%" ></div>
+    <div class="fb"> <img src="mobile/fb.png"width="100%" ></div>
+</div>
+</body>
